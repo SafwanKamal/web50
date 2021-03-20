@@ -1,0 +1,58 @@
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    margin: 20px;
+    padding: 3.5px;
+    border-radius: 100px;
+    border: 2px solid gray;
+}
+
+
+input[type="submit"]{
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+input.ad_text{
+    height: 30px;
+    width: 700px;
+    margin: 20px;
+    padding: 3.5px;
+    border-radius: 0px;
+    border: 2px solid gray;
+}
+
+#bar{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#luck{
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    left: 55%;
+    transform: translate(0%, 0%);
+
+}
+#links{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    transform: translate(0%, 0%);
+
+}
+
+#ad_sub{
+    background-color:dodgerblue ;
+    border:2px solid blue;
+    color: white;
+}
