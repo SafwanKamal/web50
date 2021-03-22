@@ -1,21 +1,22 @@
+
 input[type="text"]{
     height: 50px;
     width: 600px;
     margin: 20px;
     padding: 3.5px;
     border-radius: 100px;
-    border: 2px solid gray;
+    border: 2px solid whitesmoke;
 }
 
-
-input[type="submit"]{
-    height: 30px;
-    width: 200px;
+input[type="text"]:hover{
+    height: 50px;
+    width: 600px;
     margin: 20px;
-    padding: 5px;
+    padding: 0.5px;
+    border-radius: 100px;
+    border: 5px solid whitesmoke;
 
 }
-
 input.ad_text{
     height: 30px;
     width: 700px;
@@ -25,8 +26,32 @@ input.ad_text{
     border: 2px solid gray;
 }
 
+input.ad_text:hover{
+    height: 30px;
+    width: 700px;
+    margin: 20px;
+    padding: 3.5px;
+    border-radius: 0px;
+    border: 2px solid dodgerblue;
+}
+
+button{
+    height: 35px;
+    width: 155px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+
+}
+
+button:hover{
+    height: 35px;
+    width: 155px;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+}
+
 #bar{
-    margin: 0;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,14 +59,6 @@ input.ad_text{
     
 }
 
-#luck{
-    margin: 0;
-    position: absolute;
-    top: 53%;
-    left: 55%;
-    transform: translate(0%, 0%);
-
-}
 #links{
     margin: 0;
     position: absolute;
@@ -51,8 +68,21 @@ input.ad_text{
 
 }
 
+#google{
+    margin: 0;
+    position: absolute;
+    top: -50%;
+    left: 28%;
+
+}
 #ad_sub{
     background-color:dodgerblue ;
-    border:2px solid blue;
+    border:3px solid dodgerblue;
+    color: white;
+}
+
+#ad_sub:hover{
+    background-color:dodgerblue ;
+    border: 3px solid rgba(0, 189, 236, 0.911);
     color: white;
 }
